@@ -38,7 +38,7 @@ function rollDice(){
 		finalNumber = finalNumber - modifierNumber;  
 	}
 	console.log('the final number is ' + finalNumber);
-	document.querySelector("div").innerHTML = finalNumber;
+	document.querySelector("div:last-of-type").innerHTML = finalNumber;
 }
 
 document.querySelector('button').addEventListener("click", rollDice);

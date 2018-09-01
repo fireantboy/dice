@@ -41,4 +41,9 @@ function rollDice(){
 	document.querySelector("div:last-of-type").innerHTML = finalNumber;
 }
 
+function restrictNumberOfCharacters() {
+
+}
+
 document.querySelector('button').addEventListener("click", rollDice);
+document.addEventListener("keypress", restrictNumberOfCharacters);:webkitCancelAnimationFrame

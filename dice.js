@@ -1,4 +1,5 @@
 function rollDice(){
+	//a comment from Daddy in rollDice
 	var numberOfDice = Number(document.getElementById('numberOfDice').value.trim());
 	if(isNaN(numberOfDice) || numberOfDice < 1){
 		alert("How many dice needs to be a number greater than 0");
